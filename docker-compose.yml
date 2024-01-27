@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+
+  mongo:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_DATABASE: ProductBasketDb
+      MONGO_INITDB_ROOT_USERNAME: ProductBasket
+      MONGO_INITDB_ROOT_PASSWORD: ProductBasket_pwd
+    volumes:
+      - $PWD/src/data/volumes/mongo/init-mongo.js:/docker-entrypoint-initdb.d/init-mongo-js:ro
+      - $PWD/src/data/volumes/mongo/data:/var/lib/redis
+    ports:
+      - 27017-27019:27017-27019
+
+  mongo-express:
+    image: mongo-express
+    restart: always
+    ports:
+      - 8081:8081
+    environment:
+      ME_CONFIG_MONGODB_ADMINUSERNAME: ProductBasket
+      ME_CONFIG_MONGODB_ADMINPASSWORD: ProductBasket_pwd
+      ME_CONFIG_MONGODB_URL: mongodb://ProductBasket:ProductBasket_pwd@mongo:27017/
+    links: 
+        - mongo
+
+  redis:
+    image: "redis:alpine"
+    ports:
+     - "6379:6379"
+    volumes:
+     - $PWD/src/data/volumes/redis:/var/lib/redis
+    environment:
+     - REDIS_REPLICATION_MODE=master
+
+  api:
+    image: api:latest
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "8000:80"
+    links: 
+      - redis

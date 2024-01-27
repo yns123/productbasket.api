@@ -1,0 +1,138 @@
+[
+    {
+        "name": "Dell Inspiron 15 3000 Series Laptop",
+        "strCategory": "Laptop",
+        "category": 4,
+        "description": "15.6-inch laptop with the latest processors and a glossy finish. It also has a spacious hard drive and impressive graphics capabilities.",
+        "imageUrl": "https://i.dell.com/sites/csimages/Merchandizing_Images/All/Dell_gaming_homepage_small.jpg",
+        "price": 699.99
+    },
+    {
+        "name": "Apple iPhone 13 Pro Max",
+        "strCategory": "Smartphone",
+        "category": 1,
+        "description": "6.7-inch Super Retina XDR display, A15 Bionic chip, 5G capable, Pro camera system, Ceramic Shield front cover, and more.",
+        "imageUrl": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-family-hero?wid=940&hei=1112&fmt=jpeg&qlt=95&.v=1631226563000",
+        "price": 1099.00
+    },
+    {
+        "name": "Samsung Galaxy Tab S7+",
+        "strCategory": "Tablet",
+        "category": 2,
+        "description": "12.4-inch Super AMOLED display, S Pen included, 5G capable, quad speakers sound by AKG, and more.",
+        "imageUrl": "https://images.samsung.com/is/image/samsung/p6pim/uk/sm-t970nzsexef/gallery/uk-galaxy-tab-s7-plus-t970n-silver-316071778?$720_576_PNG$",
+        "price": 749.99
+    },
+    {
+        "name": "HP Spectre x360 Laptop",
+        "strCategory": "Laptop",
+        "category": 4,
+        "description": "13.3-inch touch screen, 11th Gen Intel® Core™ i7-1165G7 processor, 16GB RAM, 512GB SSD, Intel® Iris® Xe graphics, and more.",
+        "imageUrl": "https://store.hp.com/UKStore/Html/Merch/Images/c06070349_1750x1285.jpg",
+        "price": 1299.99
+    },
+    {
+        "name": "Alienware Aurora R12 Gaming Desktop",
+        "strCategory": "Desktop",
+        "category": 8,
+        "description": "11th Gen Intel® Core™ processors, NVIDIA® GeForce RTX™ 30 Series graphics, and a customizable chassis with RGB lighting.",
+        "imageUrl": "https://i.dell.com/sites/csimages/Merchandizing_Images/all/alienware-desktops-aurora-r12-gaming-desktop-9300-customization-page-600x600.png",
+        "price": 1599.99
+    },
+    {
+        "name": "Sony PlayStation 5",
+        "strCategory": "GamingConsole",
+        "category": 16,
+        "description": "Ultra-high-speed SSD, haptic feedback, adaptive triggers, 3D Audio, and more.",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/619BkvKW35L._SL1500_.jpg",
+        "price": 499.99
+    },
+    {
+        "name": "Dell XPS 13",
+        "strCategory": "Laptop",
+        "category": 4,
+        "description": "The Dell XPS 13 features a 13.4-inch display, 11th Gen Intel Core processors, and a sleek design.",
+        "imageUrl": "https://i.dell.com/sites/csimages/Video_Imagery/all/xps_13_9310_touch_white_palmrest_f1yvc003_27_800x600.jpg",
+        "price": 1199
+    },
+    {
+        "name": "Apple iPad Pro",
+        "strCategory": "Tablet",
+        "category": 2,
+        "description": "The Apple iPad Pro features a 12.9-inch Liquid Retina XDR display, M1 chip, 5G, and a 12MP Wide camera.",
+        "imageUrl": "https://www.apple.com/v/ipad/home/ag/images/overview/hero/ipadpro__dujv6p0zv8su_mediumtall.jpg",
+        "price": 1099
+    },
+    {
+        "name": "Samsung Galaxy S21 Ultra",
+        "strCategory": "Smartphone",
+        "category": 1,
+        "description": "The Samsung Galaxy S21 Ultra features a 6.8-inch Dynamic AMOLED 2X display, Exynos 2100 or Snapdragon 888 chipset, 5G, and a quad-camera system.",
+        "imageUrl": "https://www.samsung.com/us/mobile/galaxy-s21-5g/_next/static/images/galaxy-s21-hero-left-right-mob.png",
+        "price": 1199
+    },
+    {
+        "name": "HP Pavilion Desktop",
+        "strCategory": "Desktop",
+        "category": 8,
+        "description": "The HP Pavilion Desktop features an Intel Core i7 processor, NVIDIA GeForce GTX 1650 graphics, and a minimalist design.",
+        "imageUrl": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c06648263.png",
+        "price": 899
+    },
+    {
+        "name": "PlayStation 5",
+        "strCategory": "GamingConsole",
+        "category": 16,
+        "description": "The PlayStation 5 features a custom AMD Zen 2 processor, 16GB of GDDR6 RAM, and a built-in 825GB SSD.",
+        "imageUrl": "https://i.playstation.com/cdn/202011/1200x675-ps5-console.png",
+        "price": 499
+    },
+    {
+        "name": "LG OLED C1 Series",
+        "strCategory": "SmartTV",
+        "category": 32,
+        "description": "The LG OLED C1 Series features a 4K OLED display, webOS 6.0, and support for Dolby Vision IQ, HDR10, and HLG.",
+        "imageUrl": "https://www.lg.com/us/images/tvs/md07530688/gallery/desktop-01.jpg",
+        "price": 454
+    },
+    {
+        "name": "Bose QuietComfort 35 II",
+        "strCategory": "Headphone",
+        "category": 64,
+        "description": "Wireless Bluetooth Headphones",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81%2BjNVOUsJL._AC_SX569_.jpg",
+        "price": 299
+    },
+    {
+        "name": "Nikon D3500",
+        "strCategory": "Camera",
+        "category": 256,
+        "description": "24.2 MP DX-format CMOS sensor, EXPEED 4 image processor",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61QyKW16biL._AC_SX679_.jpg",
+        "price": 499
+    },
+    {
+        "name": "Apple Watch Series 7",
+        "strCategory": "GamingConsole",
+        "category": 16,
+        "description": "The largest, most advanced Always-on Retina display yet",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81T0Od0chFL._AC_SX679_.jpg",
+        "price": 399
+    },
+    {
+        "name": "Google Nest Learning Thermostat",
+        "strCategory": "SmartHomeDevice",
+        "category": 128,
+        "description": "Programmable Wi-Fi Thermostat",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71hR6YjQo0L._AC_SX679_.jpg",
+        "price": 249
+    },
+    {
+        "name": "Sony PlayStation 5",
+        "strCategory": "GamingConsole",
+        "category": 16,
+        "description": "Ultra-High Speed SSD, Ray Tracing, Haptic Feedback, Backwards Compatibility",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/619BkvKW35L._SX569_.jpg",
+        "price": 499
+    }
+]
